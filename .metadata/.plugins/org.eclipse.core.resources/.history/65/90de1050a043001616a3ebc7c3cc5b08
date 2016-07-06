@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;
+
+import org.jointheleague.graphical.robot.Robot;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		
+		//System.out.print("hello");
+		//JOptionPane.showMessageDialog(null, "hello");
+		Robot jeff = new Robot();
+		jeff.penDown();
+		jeff.setRandomPenColor();
+		jeff.setPenWidth(10);
+		jeff.setSpeed(10);
+		jeff.move(100);
+		jeff.turn(90);
+		
+		
+		
+	}
+}

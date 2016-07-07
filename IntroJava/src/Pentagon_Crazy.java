@@ -25,7 +25,7 @@ public class Pentagon_Crazy {
 		int v  = 1;	
 		while(v < 1001){
 			// 2. Move the robot 200 pixels
-			jeff.move(200);
+			jeff.move(10);
 			// 10. Make the robot move "i" pixels instead of 200 (don’t need new line of code for this, just change previous one)
 			jeff.move(i);
 			// 6. Turn the robot the amount in your angle variable

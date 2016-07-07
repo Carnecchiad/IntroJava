@@ -7,6 +7,10 @@ public class HelloWorld {
 
 		// System.out.print("hello");
 		// JOptionPane.showMessageDialog(null, "hello");
+		JOptionPane.showInputDialog("hello");
+		
+		
+		
 		Robot jeff = new Robot();
 		Robot tim = new Robot();
 		int i = 1;
